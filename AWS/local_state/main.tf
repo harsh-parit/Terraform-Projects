@@ -1,7 +1,7 @@
 terraform {
     required_providers {
         aws = {
-            source = "hasicorp/aws"
+            source = "hashicorp/aws"
             version = "4.0"
         }
     }
@@ -25,7 +25,7 @@ resource "aws_instance" "Terraform-example" {
     instance_type = "t2.micro"
 
     tags = {
-        Name = Terraform-example
+        Name = "Terraform-example"
     }
   
 }
