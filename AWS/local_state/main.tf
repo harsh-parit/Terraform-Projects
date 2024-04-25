@@ -9,7 +9,7 @@ terraform {
 }
 
 # Configure the AWS provider
-resource "aws" "Terraform-example" {
+resource "aws_instance" "Terraform-example" {
     region = "ap-southeast-2"
 }
 
