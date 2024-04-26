@@ -19,20 +19,9 @@ resource "aws_vpc" "Terraform-example" {
   
 }
 
-# Data source ami id
-data "aws_ami" "ubuntu" {
-    most_recent = "true"  
-
-    owners = ["amazon"] 
-    filter {
-        name = "name"
-        values = ["ubuntu/iamges/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240301"]
-    }
-}
-
 # instance configurations
 resource "aws_instance" "Terraform-example" {
-    ami = "ami- 0dcc1e21636832c5d"
+    ami = "ami-0cf2b4e024cdb6960"
     instance_type = "t2.micro"
 
     tags = {
