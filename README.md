@@ -1,7 +1,7 @@
 # Terraform-Projects
 These are examples templates. anybody can Fork
 
-## Note: Do make sure AWS CLI is configured.
+## Note:Do make sure AWS CLI is configured.
 
 ### **Step 1: clone reposistory to local**
 ```
