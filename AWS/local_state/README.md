@@ -1,4 +1,4 @@
-# EC2 instance for Terraform
+# Creation of EC2 instance using Terraform
 
 * This instance is created in us-west-2
 
