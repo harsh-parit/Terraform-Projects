@@ -5,4 +5,4 @@
 
 # Day 1
 
-*creation of EC2_instance with "main.tf"
+* creation of EC2_instance with "main.tf"
